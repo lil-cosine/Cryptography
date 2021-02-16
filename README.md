@@ -1,5 +1,7 @@
 # Cryptography
- Code for Cryptography
+ Code made to make my Cryptography class easier.
+
+# All code was written in my spare time. No code was apart of any assignment at the point of their upload.
 
 ## Includes
 
