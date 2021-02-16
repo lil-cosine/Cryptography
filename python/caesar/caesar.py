@@ -15,7 +15,7 @@ def encode(plainText, KEY):
         cipherText = cipherText + calph[alph.find(plainText[letter])]
     return cipherText.upper()
 
-#Plaintext and key to be passed through
+#Plaintext and key to be passed through 
 plainText = 'yes'
 KEY = 7
 
