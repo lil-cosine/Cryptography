@@ -14,7 +14,7 @@ string getAlph(int KEY){
 return cipherAlph;
 }
 
-//Dencodes the message using the alphabet found in the above function
+//decodes the message using the alphabet found in the above function
 string tocipher(string text, int KEY){
   string calph = getAlph(KEY);
   string alph ("abcdefghijklmnopqustuvwxyz");
@@ -32,7 +32,7 @@ int main(){
 
   //KEY = shift
   int KEY = 7;
-  //cipherText = message to be dencoded
+  //cipherText = message to be decoded
   string cipherText = "flz";
 
 
