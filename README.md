@@ -23,3 +23,7 @@
   * caesar.py - encrypts a message using the Caesar Shift cipher.
 
   * decaesar.py - decrypts a message using the Caesar Shift cipher.
+
+  * affine.py - encodes a message using the Affine Cipher.
+
+  * deaffine.py - decodes a message using the Affine Cipher.
