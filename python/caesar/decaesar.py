@@ -20,5 +20,4 @@ def decode(cipherText, KEY):
 cipherText = 'FLZZP Y'
 KEY = 7
 
-print(cipherText.strip())
 print(decode(cipherText.replace(" ", ""), KEY))
