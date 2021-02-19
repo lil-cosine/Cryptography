@@ -1,6 +1,7 @@
 #Creates the cipher alphabet
+alph = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 def make_calph(KEY):
-    alph = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+
     calph = ""
     for letter in range(len(alph)):
         calph = calph + alph[(letter+KEY)%26]
@@ -8,7 +9,7 @@ def make_calph(KEY):
 
 #Decodes the message
 def decode(cipherText, KEY):
-    alph = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+
     calph = make_calph(KEY)
     plainText = ""
     for letter in range(len(cipherText)):
@@ -16,8 +17,8 @@ def decode(cipherText, KEY):
     return plainText.lower()
 
 #Plaintext and key to be passed through
-cipherText = 'FLZ'
+cipherText = 'FLZZP Y'
 KEY = 7
 
-
-print(decode(cipherText, KEY))
+print(cipherText.strip())
+print(decode(cipherText.replace(" ", ""), KEY))
